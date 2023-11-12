@@ -1,0 +1,532 @@
+body{
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+
+
+}
+
+
+a{
+    text-decoraion: none;
+}
+.navbar{
+position: sticky;
+top: 0px;
+display: flex;
+justify-content: center;
+border-bottom: 1px solid black;
+margin: 0px;
+background-color: aqua;
+overflow-x: hidden;
+
+}
+.navbar li{
+list-style-ype: none;
+margin: 20px;
+
+}
+.navbar li img{
+width: 100px;
+margin-right: 200px;
+
+}
+#dounloadcv{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+#downloadcv a{
+    border: 2px solid darkblue;
+    padding: 14px;
+    background-color: pink;
+}
+#downloadcv a:hover{
+    background-color: white;
+    color: blue;
+}
+.landing{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-color: aqua;
+    overflow-x: hidden;
+}
+.div1{
+    margin-top: 100px;
+}
+.div2 img{
+   width: 500px;
+   margin-left: 200px;
+}
+.say{
+background-color: blue;
+color: white;
+padding: 15px;
+margin-right: 60px;
+
+}
+.say:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    
+}
+.myclient{
+    background-color: navy;
+    overflow-x: hidden;
+}
+.myclient div{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    padding: 30px 40px 0px 40px;
+}
+.myclient div span img{
+    margin: 0px 40px 0px 40px;
+}
+
+.dedication{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    overflow-x: hidden;
+}
+.dedication div{ 
+padding: 40px;
+margin-right: 50px;
+margin-left: 50px;
+border-left: 1px solid black;
+}
+.dedication div img{
+    width: 80px;
+    height: 50px;
+    margin-bottom: -20px;
+}
+.b1{
+    border: none !important
+    
+}
+
+/* ============================MY SKILLS===========================*/
+
+.mainskill{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.upskill1{
+    padding-left: 100px;
+    overflow-x: hidden;
+
+}
+.mainskill div{
+    margin: 40px;
+    display: block;
+}
+.ulskill{
+    display: flex;
+    
+}
+.ulup{
+    background-color: orangered;
+    justify-content: center;
+}
+.ulskill li{
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 30px;
+    margin: 40px;
+    background-color: white;
+}
+/* ============================count===========================*/
+.count{
+    overflow-x: hidden;
+    display:flex;
+}
+.count div{
+    margin: 20px;
+    padding: 50px;
+}
+.count div u{
+    margin: 30px;
+}
+.count div span{
+    padding: 0px 0px 0px 0px;
+}
+
+
+/* ============================About===========================*/
+.about01{
+    overflow-x: hidden;
+    
+}
+.year{
+  width: 300px;
+  height: 100px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 2250px;
+  left: 100px;
+  background-color: white;
+  overflow-x: hidden;
+
+  
+
+}
+
+.year1{
+    color: orangered;
+    font-size: 70px;
+    font-weight: 200;
+    margin-top: 0px;
+
+}
+.year2{
+    color: rgb(red, green, blue);
+    font-size: 25px;
+    padding-left: 20px;
+}
+.about{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+
+
+}
+.about div{
+    margin: 0px 60px 0px 60px;
+
+}
+ .about div p{
+    font-style: 60px;
+ }
+ .about div h1{
+    font-size: 60px;
+ }
+
+ /* ============================About2===========================*/
+
+ 
+ .about2{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    overflow-x: hidden;
+
+ }
+
+  /* ============================fivimag===========================*/
+  
+  .five{
+    display: flex;
+    
+    
+  }
+  .five div{
+    border:3px solid rgb(86, 86, 135);
+    width: 50%;
+    overflow: hidden;
+    margin: 1px;
+
+  }
+  .five div img{
+    width: 100%;
+  }
+  .five div img:hover{
+    scale: 1.2;
+    transition: scale 1s ease-out;
+  }
+
+  .three{
+    display: flex;
+  }
+  .three div{
+    border:3px solid rgb(86, 86, 135);
+    width: 50%;
+    overflow: hidden;
+    margin: 1px;
+
+  }
+  .three div img{
+    width: 100%;
+  }
+  .three div img:hover{
+    scale: 1.2;
+    transition: scale 1s ease-out;
+  }
+
+   /* ============================fAQ===========================*/
+   .fiv{
+    overflow-x: hidden;
+   }
+
+   .faq1{
+    width: 700px;
+    background-color: rgb(12,12,59);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+   }
+   .faq1 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+   }
+   .faq1a{
+    width: 700px;
+    background-color: rgb(12,12,59);
+    padding: 40px;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+
+   }
+   #check1:checked~.faq1a{
+    display: block ;
+    transition: display 5s ease-in-out;
+   }
+    /* ============================fAq2===========================*/
+   .faq2{
+    width: 700px;
+    background-color: rgb(12,12,59);
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+   }
+   .faq2 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+   }
+   .faq2a{
+    width: 700px;
+    background-color: rgb(12,12,59);
+    padding: 40px;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+
+   }
+   #check2:checked~.faq2a{
+    display: block ;
+    transition: display 5s ease-in-out;
+
+   }
+   
+    /* ============================fAq3===========================*/
+    .faq3{
+        width: 700px;
+        background-color: rgb(12,12,59);
+        padding: 40px;
+        color: white;
+        font-size: 30px;
+       }
+       .faq3 span{
+        background-color: aqua;
+        font-weight: 900;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+    
+       }
+       .faq3a{
+        width: 700px;
+        background-color: rgb(12,12,59);
+        padding: 40px;
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+        display: none;
+    
+       }
+       #check3:checked~.faq3a{
+        display: block ;
+        transition: display 5s ease-in-out;
+    
+       }
+
+         /* ============================fAq4===========================*/
+    .faq4{
+        width: 700px;
+        background-color: rgb(12,12,59);
+        padding: 40px;
+        color: white;
+        font-size: 30px;
+       }
+       .faq4 span{
+        background-color: aqua;
+        font-weight: 900;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+    
+       }
+       .faq4a{
+        width: 700px;
+        background-color: rgb(12,12,59);
+        padding: 40px;
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+        display: none;
+    
+       }
+       #check4:checked~.faq4a{
+        display: block ;
+        transition: display 5s ease-in-out;
+    
+       }
+
+       
+         /* ============================fAq5===========================*/
+    .faq5{
+        width: 700px;
+        background-color: rgb(12,12,59);
+        padding: 40px;
+        color: white;
+        font-size: 30px;
+       }
+       .faq5 span{
+        background-color: aqua;
+        font-weight: 900;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+    
+       }
+       .faq5a{
+        width: 700px;
+        background-color: rgb(12,12,59);
+        padding: 40px;
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+        display: none;
+    
+       }
+       #check5:checked~.faq5a{
+        display: block ;
+        transition: display 5s ease-in-out;
+    
+       }
+       
+         /* ============================freelance===========================*/
+       .freelance{
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 80px;
+        overflow-x: hidden;
+       }
+
+       .freelance1{
+        background-color: rgb(210, 18, 18);
+        color: white;
+        padding: 15px;
+        margin-right: 60px;
+        
+        }
+        .freelance1:hover{
+            background-color: white;
+            color: blue;
+            border: 1px solid blue;
+        }
+
+        
+         /* ============================blog===========================*/
+
+         .myblog{
+            display: flex;
+            justify-content: center;
+            font-size: 17px;
+            
+            
+        }
+            .myblog div{
+                overflow: hidden;
+                padding: 40px;
+                
+            }
+            .border{
+                border-bottom: 1px solid rgb(146, 146, 142);
+            }
+
+        .myblog div img{
+            width: 300px;
+            height: 200px;
+            border-radius: 100px;
+            
+            
+        }
+        .myblog div img:hover{
+                scale: 1.2;
+                transition: scale 1s ease-out;
+
+        }
+            
+ /* ============================form===========================*/
+
+ .contact{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://itemsstore.net/html/trito/img/contact/background.jpg');
+    padding: 40px;
+    overflow-x: hidden;
+}
+
+.contact1{
+    margin: 100px;
+    overflow-x: hidden;
+    
+}
+.contact2{
+    margin: 70px;
+    background-color: white;
+    padding: 50px;
+    
+    
+}
+
+.contact2 div input{
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 80px;
+    height: 20px;
+}
+
+.contact2 div input::placeholder{
+    font-size: 20px;
+}
+.contact2 div{
+    padding: 20px 200px 20px 60px;
+    margin: 20px;
+    border: 2px solid rgb(10, 10, 31);
+}
+
+.contact2 button{
+    padding: 20px 160px 20px 160px;
+}
+
+.contact2 div i{
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    
+}
